@@ -3,7 +3,6 @@ import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
 import { LoggerInterceptor } from './shared/interceptors/logger.interceptor';
 import { NestExpressApplication } from '@nestjs/platform-express';
-import { ServeStaticModule } from '@nestjs/serve-static';
 import * as path from 'path';
 
 async function bootstrap() {

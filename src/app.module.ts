@@ -15,6 +15,9 @@ import { join } from 'path';
       secret: '5gdfg6', // Tutaj podaj własny klucz tajny
       signOptions: { expiresIn: '1h' }, // Konfiguracja opcji podpisywania tokenów, np. czas wygaśnięcia
     }),
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '../../', 'client', 'build'),
+    }),
     // ServeStaticModule.forRoot({
     //   rootPath: join(__dirname, '..', 'uploads'), 
     //   serveRoot: '/uploads', 
