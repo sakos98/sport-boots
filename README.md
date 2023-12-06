@@ -1,3 +1,6 @@
+<p> Niestety na renderze nie udało mi się wystartować bazy danych i produkty się nie renderują, koszyk zrobiony tylko do poglądu ponieważ nie zdążyłem go zaprogramować aby każda funkcjonalność działała </p>
+<p> Aby projekt zobaczyć w pełnej okazałości niestety trzeba go odpalić lokalnie, załączam też pliki sql z mojej bazy danych </p>
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
